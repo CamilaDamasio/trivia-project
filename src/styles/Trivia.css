@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Chonburi&family=Courgette&family=Quantico:wght@700&display=swap') ;
+
+.trivia-page {
+  background-color: #fab005;
+  height: 100vh;
+  overflow: hidden;
+  width: 100%;
+}
+
+header {
+  display: flex;
+  height: 100px;
+  margin: auto;
+  width: 90%;
+}
+
+[ data-testid = 'header-profile-picture' ] {
+  border-radius: 50%;
+  margin: 10px auto;
+}
+
+[ data-testid = 'header-player-name' ] {
+  color: #511f52;
+  font-family: Quantico , sans-serif;
+  font-size: 200%;
+  margin: auto;
+}
+
+[ data-testid = 'header-score' ] {
+  color: #228be6;
+  font-family: Black Ops One , sans-serif;
+  font-size: 50px;
+  margin: auto;
+  text-decoration: none;
+}
+
+.timer {
+  align-items: center;
+  background-color: blanchedalmond;
+  border-radius: 7%;
+  color: #c92a2a;
+  display: flex;
+  font-family: Black Ops One , sans-serif;
+  font-size: 200%;
+  height: 100px;
+  justify-content: center;
+  margin: auto;
+  text-align: center;
+  width: 180px;
+}
+
+.question-box {
+  align-items: center;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  height: 20%;
+  justify-content: space-between;
+  margin: auto;
+  width: 80%;
+}
+
+.left-questions, .right-questions {
+  align-content: center;
+  padding: 0 20px;
+  text-align: center;
+}
+
+.left-questions {
+  background-color: #fa5252;
+  border-radius: 5px;
+  width: 88%;
+}
+
+.right-questions {
+  background-color: #ffc02d;
+  border: solid 2px #511f52;
+  border-radius: 5px;
+  margin: 5px;
+  padding: 5px;
+  width: 90%;
+}
+
+[ data-testid = 'question-category' ] {
+  color: #511f52;
+  font-family: Quantico , sans-serif;
+  font-size: 150%;
+  margin: 5px 0 0;
+  text-align: center;
+}
+
+[ data-testid = 'question-text' ] {
+  color: white;
+  text-align: center;
+}
+
+ol {
+  margin: 20px;
+  padding: 0;
+}
+
+li {
+  background-color: #511f52;
+  border-radius: 7px;
+  display: flex;
+  height: 40px;
+  justify-content: center;
+  margin: 1% auto;
+  text-decoration: none;
+  width: 70%;
+}
+
+.answers {
+  background-color: #511f52;
+  border-radius: 7px;
+  color: white;
+  text-align: center;
+  transition: 0.2s;
+  width: 100%;
+}
+
+.answers:hover {
+  background-color: #84459c;
+  transition: 0.2s;
+}
+
+.btn-next-div {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+[ data-testid = 'btn-next' ] {
+  align-items: center;
+  background-color: #82c91e;
+  border-radius: 7px;
+  color: black;
+  font-weight: 700;
+  margin-left: 10px;
+  margin-top: -15px;
+  padding: 7px 14px;
+  transition: 0.3s;
+}

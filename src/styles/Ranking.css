@@ -1,0 +1,71 @@
+.ranking {
+  align-items: center;
+  background-color: #fa5252;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.title-button {
+  align-items: center;
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  width: 100%;
+}
+
+.players {
+  background-color: #fab005;
+  border-radius: 7px;
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+}
+
+.player-specs {
+  display: flex;
+  list-style: none;
+  margin: 10px;
+  padding: 0;
+}
+
+.player-specs li {
+  padding: 1%;
+}
+
+.button-start {
+  background-color: #511f52;
+  border: none;
+  border-radius: 7px;
+  color: white;
+  font-weight: 700;
+  margin-left: 10px;
+  padding: 7px 14px;
+  transition: 0.3s;
+}
+
+.button-start:hover {
+  background-color: #84459c;
+  transition: 0.2s;
+}
+
+.ranking-img {
+  border-radius: 7px 0 0 7px;
+}
+
+.img-render-ranking {
+  border-radius: 50%;
+}
+
+.ranking-name {
+  align-items: center;
+  border-radius: 0;
+  text-align: center;
+}
+
+.ranking-score {
+  align-items: center;
+  border-radius: 0 7px 7px 0;
+}

@@ -1,0 +1,99 @@
+.feedback {
+  align-items: flex-start;
+  background-color: #82c91e;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  min-height: 100vh;
+
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  width: 100%;
+}
+
+.div-messages {
+  align-items: center;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 40px;
+}
+
+.div-msg {
+  background-color: #fa5252;
+  border-radius: 7px;
+  color: #511f52;
+  font-weight: 700;
+  text-align: center;
+  width: 50%;
+}
+
+.div-button {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: auto;
+  padding: 20px;
+  text-align: center;
+  width: 50%;
+}
+
+.button-ranking {
+  background-color: #fa5252;
+  border: none;
+  border-radius: 7px;
+  color: white;
+  font-weight: 700;
+  height: 40px;
+  margin-right: 30px;
+  margin-top: 10px;
+  padding: 7px 14px;
+  text-align: center;
+  transition: 0.3s;
+  width: 100%;
+}
+
+.button-ranking:hover {
+  background-color: #511f52;
+  transition: 0.2s;
+}
+
+.button-play-again {
+  background-color: #511f52;
+  border: none;
+  border-radius: 7px;
+  color: white;
+  font-weight: 700;
+  height: 40px;
+  margin-top: 10px;
+  padding: 7px 14px;
+  transition: 0.3s;
+  width: 100%;
+}
+
+.button-play-again:hover {
+  background-color: #fa5252;
+  transition: 0.2s;
+}
+
+[ data-testid = 'feedback-total-question' ] {
+  font-family: Quantico , sans-serif;
+  font-size: 20px;
+  text-align: center;
+}
+
+[ data-testid = 'feedback-text' ] {
+  color: white;
+  font-family: Quantico , sans-serif;
+  font-size: 30px;
+  text-align: center;
+}
+
+[ data-testid = 'feedback-total-score' ] {
+  font-family: Quantico , sans-serif;
+  font-size: 20px;
+  text-align: center;
+}

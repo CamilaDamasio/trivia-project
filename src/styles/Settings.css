@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Chonburi&family=Courgette&family=Quantico:wght@700&display=swap') ;
+
+.settings-page {
+  background-image: url('./images/settings1-.jpg');
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  margin: 0;
+  text-align: center;
+}
+
+.settings-text {
+  align-items: center;
+  color: rgb(185, 185, 185);
+  display: flex;
+  font-family: Quantico , sans-serif;
+  font-size: 130%;
+  height: 10%;
+  justify-content: center;
+  margin: 50px auto;
+  text-align: center;
+  width: 100vh;
+}
+
+.inputs-settings {
+  align-content: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin: 100px auto;
+  width: 100%;
+
+}
+
+.categories, .dificulty, .type {
+  background-color: #ffc02d;
+  border-radius: 7px;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 5px;
+  width: 20%;
+}
+
+.settings-button-home {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 20px auto;
+  width: 90%;
+}
+
+.settings {
+  background-color: #fa5252;
+  border-radius: 7px;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 25px;
+  padding: 5px;
+  text-align: center;
+  width: 80%;
+}
+
+.settings:hover {
+  background-color: #84459c;
+  transition: 0.2s;
+}

@@ -1,0 +1,13 @@
+.red-border {
+  border: 3px solid red;
+  width: 100%;
+}
+
+.green-border {
+  border: 3px solid rgb(6, 240, 15);
+  border-radius: 7px;
+}
+
+.nextButton {
+  visibility: hidden;
+}

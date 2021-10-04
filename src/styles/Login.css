@@ -1,0 +1,177 @@
+.login-page {
+  align-items: center;
+  background-color: #84459c;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  overflow-y: hidden;
+}
+
+.login-box {
+  align-items: center;
+  background-color: #511f52;
+  border-radius: 10px;
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 40px;
+}
+
+.left, .right {
+  padding: 0 50px;
+  text-align: center;
+  width: 50%;
+}
+
+.right .login-title {
+  color: white;
+  font-size: 40px;
+  text-align: center;
+}
+
+.right .login-title-span {
+  color: white;
+  font-size: 15px;
+  margin-bottom: -50px;
+  margin-top: -100px;
+  text-align: center;
+}
+
+.img-login {
+  transition: 0.2s;
+  width: 500px;
+}
+
+.form-login {
+  display: flex;
+  flex-direction: column;
+  margin: 30px 0;
+}
+
+.form-login input {
+  background-color: #82c91e;
+  border: none;
+  border-radius: 7px;
+  font-weight: 600;
+  margin-top: 10px;
+  padding: 10px;
+}
+
+input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:focus {
+  box-shadow: 0 0 0 30px #82c91e inset;
+  -webkit-text-fill-color: white;
+}
+
+.form-login input:focus {
+  color: white;
+}
+
+.form-login input:visited {
+  color: white;
+}
+
+.form-login input::placeholder {
+  color: white;
+  font-size: 14px;
+}
+
+.login-box button {
+  margin-left: 5px;
+}
+
+.button-play {
+  background-color: #fab005;
+  border: none;
+  border-radius: 7px;
+  color: white;
+  font-weight: 700;
+  margin-left: 10px;
+  padding: 7px 14px;
+  transition: 0.3s;
+}
+
+.button-play:disabled {
+  background-color: #ca9417;
+  transition: 0.2s;
+}
+
+.settings-link {
+  background-color: #fa5252;
+  border: none;
+  border-radius: 7px;
+  color: white;
+  font-weight: 700;
+  padding: 7px 14px;
+}
+
+
+@media ( max-width : 999px ) {
+
+  .img-login {
+    transition: 0.2s;
+    width: 350px;
+  }
+
+  .right .login-title {
+    color: white;
+    font-size: 40px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  .button-play {
+    margin-bottom: 10px;
+    width: 50%;
+  }
+
+  .settings-link {
+    width: 70%;
+  }
+
+  .right .login-title-span {
+    color: white;
+    font-size: 15px;
+    margin-top: 0;
+    text-align: center;
+  }
+
+}
+
+@media ( max-width : 768px ) {
+
+  .login-page {
+    align-items: center;
+    background-color: #84459c;
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+  }
+
+  .login-box {
+    flex-direction: column;
+  }
+
+  .right .login-title {
+    color: white;
+    font-size: 40px;
+    margin-bottom: -10px;
+    text-align: center;
+  }
+
+  .right .login-title-span {
+    color: white;
+    font-size: 15px;
+    margin-top: 50px;
+    text-align: center;
+  }
+
+  .left, .right {
+    padding: 0 40px;
+    width: 100%;
+  }
+
+  .img-login {
+    transition: 0.4s;
+    width: 250px;
+  }
+}
