@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "CamilaDamasio.github.io/trivia-project/static/css/main.6dd0189e.chunk.css",
-    "main.js": "CamilaDamasio.github.io/trivia-project/static/js/main.2c095a05.chunk.js",
-    "main.js.map": "CamilaDamasio.github.io/trivia-project/static/js/main.2c095a05.chunk.js.map",
-    "runtime-main.js": "CamilaDamasio.github.io/trivia-project/static/js/runtime-main.675eb577.js",
-    "runtime-main.js.map": "CamilaDamasio.github.io/trivia-project/static/js/runtime-main.675eb577.js.map",
-    "static/js/2.7f01cad4.chunk.js": "CamilaDamasio.github.io/trivia-project/static/js/2.7f01cad4.chunk.js",
-    "static/js/2.7f01cad4.chunk.js.map": "CamilaDamasio.github.io/trivia-project/static/js/2.7f01cad4.chunk.js.map",
-    "index.html": "CamilaDamasio.github.io/trivia-project/index.html",
-    "precache-manifest.f39f27bb8d2e41c6c4a0f1793d4aad36.js": "CamilaDamasio.github.io/trivia-project/precache-manifest.f39f27bb8d2e41c6c4a0f1793d4aad36.js",
-    "service-worker.js": "CamilaDamasio.github.io/trivia-project/service-worker.js",
-    "static/css/main.6dd0189e.chunk.css.map": "CamilaDamasio.github.io/trivia-project/static/css/main.6dd0189e.chunk.css.map",
-    "static/js/2.7f01cad4.chunk.js.LICENSE": "CamilaDamasio.github.io/trivia-project/static/js/2.7f01cad4.chunk.js.LICENSE",
-    "static/media/login-img.png": "CamilaDamasio.github.io/trivia-project/static/media/login-img.8b25c570.png",
-    "static/media/Settings.css": "CamilaDamasio.github.io/trivia-project/static/media/settings1-.4f869b72.jpg"
+    "main.css": "/trivia-project/static/css/main.a6de420b.chunk.css",
+    "main.js": "/trivia-project/static/js/main.1de3344b.chunk.js",
+    "main.js.map": "/trivia-project/static/js/main.1de3344b.chunk.js.map",
+    "runtime-main.js": "/trivia-project/static/js/runtime-main.55ba4fb3.js",
+    "runtime-main.js.map": "/trivia-project/static/js/runtime-main.55ba4fb3.js.map",
+    "static/js/2.dd01543e.chunk.js": "/trivia-project/static/js/2.dd01543e.chunk.js",
+    "static/js/2.dd01543e.chunk.js.map": "/trivia-project/static/js/2.dd01543e.chunk.js.map",
+    "index.html": "/trivia-project/index.html",
+    "precache-manifest.89d7a374ea9bd4beb51e61b80bfabaad.js": "/trivia-project/precache-manifest.89d7a374ea9bd4beb51e61b80bfabaad.js",
+    "service-worker.js": "/trivia-project/service-worker.js",
+    "static/css/main.a6de420b.chunk.css.map": "/trivia-project/static/css/main.a6de420b.chunk.css.map",
+    "static/js/2.dd01543e.chunk.js.LICENSE": "/trivia-project/static/js/2.dd01543e.chunk.js.LICENSE",
+    "static/media/login-img.png": "/trivia-project/static/media/login-img.8b25c570.png",
+    "static/media/Settings.css": "/trivia-project/static/media/settings1-.4f869b72.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.675eb577.js",
-    "static/js/2.7f01cad4.chunk.js",
-    "static/css/main.6dd0189e.chunk.css",
-    "static/js/main.2c095a05.chunk.js"
+    "static/js/runtime-main.55ba4fb3.js",
+    "static/js/2.dd01543e.chunk.js",
+    "static/css/main.a6de420b.chunk.css",
+    "static/js/main.1de3344b.chunk.js"
   ]
 }
