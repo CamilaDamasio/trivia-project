@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "CamilaDamasio.github.io/trivia-project/static/css/main.6dd0189e.chunk.css",
+    "main.js": "CamilaDamasio.github.io/trivia-project/static/js/main.2c095a05.chunk.js",
+    "main.js.map": "CamilaDamasio.github.io/trivia-project/static/js/main.2c095a05.chunk.js.map",
+    "runtime-main.js": "CamilaDamasio.github.io/trivia-project/static/js/runtime-main.675eb577.js",
+    "runtime-main.js.map": "CamilaDamasio.github.io/trivia-project/static/js/runtime-main.675eb577.js.map",
+    "static/js/2.7f01cad4.chunk.js": "CamilaDamasio.github.io/trivia-project/static/js/2.7f01cad4.chunk.js",
+    "static/js/2.7f01cad4.chunk.js.map": "CamilaDamasio.github.io/trivia-project/static/js/2.7f01cad4.chunk.js.map",
+    "index.html": "CamilaDamasio.github.io/trivia-project/index.html",
+    "precache-manifest.f39f27bb8d2e41c6c4a0f1793d4aad36.js": "CamilaDamasio.github.io/trivia-project/precache-manifest.f39f27bb8d2e41c6c4a0f1793d4aad36.js",
+    "service-worker.js": "CamilaDamasio.github.io/trivia-project/service-worker.js",
+    "static/css/main.6dd0189e.chunk.css.map": "CamilaDamasio.github.io/trivia-project/static/css/main.6dd0189e.chunk.css.map",
+    "static/js/2.7f01cad4.chunk.js.LICENSE": "CamilaDamasio.github.io/trivia-project/static/js/2.7f01cad4.chunk.js.LICENSE",
+    "static/media/login-img.png": "CamilaDamasio.github.io/trivia-project/static/media/login-img.8b25c570.png",
+    "static/media/Settings.css": "CamilaDamasio.github.io/trivia-project/static/media/settings1-.4f869b72.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.675eb577.js",
+    "static/js/2.7f01cad4.chunk.js",
+    "static/css/main.6dd0189e.chunk.css",
+    "static/js/main.2c095a05.chunk.js"
+  ]
+}
