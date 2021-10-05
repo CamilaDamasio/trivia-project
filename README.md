@@ -1,4 +1,4 @@
-# Seja bem vindo ou bem vinda ao meu repositório do Trivia!
+# Seja bem vindo ou bem vinda ao meu repositório do projeto Trivia!
 
 ### Neste projeto foram desenvolvidas diversas telas:
 - Tela de login;
